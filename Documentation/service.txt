@@ -1,2 +1,0 @@
-Translator,java -jar translator.jar
-Tax,java -jar tax.jar
