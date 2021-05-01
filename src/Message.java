@@ -40,7 +40,7 @@ public class Message
 	    proc.waitFor();
 
 	    InputStream input = proc.getInputStream();
-	    InputStream err = proc.getErrorStream();
+	   
 	    
 	   // String out;
 		
@@ -48,15 +48,10 @@ public class Message
 	    input.read(b,0,b.length);
 	    String language =(new String(b));
 
-	    byte c[]=new byte[err.available()];
-	    err.read(c,0,c.length);
-	    String lanerr = (new String(c));
+	  
 	    
 	    language = language.trim();
-	    lanerr = lanerr.trim();
-	    /* ******************************************* *
-	     * add remaining
-	     * ******************************************* */
+	    
 	    
 	    System.out.println(message(language,code));
 	    
@@ -73,9 +68,7 @@ public class Message
 	      boolean flag = false;
 	      String out = null;
 	      String DefaultLan = "english";
-	      int count = 0;
-	      //System.out.println("Contents of the line");
-	      //Reading the contents of the file
+	      
 	      Scanner sc = null;
 	      if (Language.contains("error")) 
 	      {
@@ -112,16 +105,13 @@ public class Message
 	         if(line.indexOf(code)!=-1) 
 	         {
 	            flag = true;
-	            count = count+1;
+	           
 	            if(flag) 
 	  	      {
 	            	out = String.join(" - ",code,(line.substring(line.lastIndexOf(",") + 1)));
 	  	           //System.out.println("Number of occurrences is: "+count);
 	  	      } 
-	  	      else 
-	  	      {
-	  	         out = "File does not contain the specified word";
-	  	      }		   
+	  	       
 	         }
 	         
 	      }
