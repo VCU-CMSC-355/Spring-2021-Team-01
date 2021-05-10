@@ -4,3 +4,7 @@ brother,frere
 sister,soeur
 friend,ami
 teacher,enseignant
+hello, 
+world,
+farewell,
+

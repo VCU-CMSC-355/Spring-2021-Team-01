@@ -4,3 +4,6 @@ brother,hermano
 sister,hermana
 friend,amigo
 teacher,maestro
+hello,Hola
+world,mundo
+farewell,despedida

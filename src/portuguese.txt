@@ -1,0 +1,9 @@
+dog,cão 
+cat,gato  
+brother,irmão
+sister,irmã
+friend,amigo
+teacher,professor
+hello,Olá
+world,mundo
+farewell,adeus

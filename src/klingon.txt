@@ -4,3 +4,6 @@ brother,loDnl'
 sister,be'nl'
 friend,jup
 teacher,ghojmoHwl'
+hello,nuqneH
+world,qo'
+farewell,Qapla'
