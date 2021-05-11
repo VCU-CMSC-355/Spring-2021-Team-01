@@ -1,5 +1,0 @@
-German,german.txt
-Spanish,spanish.txt
-French,french.txt
-Klingon,klingon.txt
-Portuguese,portuguese.txt
