@@ -1,3 +1,0 @@
-English,msgEng.txt
-German,msgGer.txt
-Portuguese,msgPor.txt
