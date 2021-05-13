@@ -1,0 +1,20 @@
+com/example/myapplication/SecondFragment.java
+ com.example.myapplication.SameNameConflicts
+ com.example.myapplication.SecondFragment
+ com.example.myapplication.SecondFragment$1
+ com.example.myapplication.SecondFragment$2
+com/example/myapplication/FourthFragment.java
+ com.example.myapplication.FourthFragment
+ com.example.myapplication.FourthFragment$1
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+com/example/myapplication/ThirdFragment.java
+ com.example.myapplication.ThirdFragment
+ com.example.myapplication.ThirdFragment$1
+ com.example.myapplication.ThirdFragment$2
+com/example/myapplication/FirstFragment.java
+ com.example.myapplication.FirstFragment
+ com.example.myapplication.FirstFragment$1
+ com.example.myapplication.FirstFragment$DataPassListener
