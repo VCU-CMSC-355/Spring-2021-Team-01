@@ -1,4 +1,4 @@
 English,msgEng.txt
 German,msgGer.txt
 Spanish,msgSpa.txt
-portuguese,msgPort.txt
+portuguese,msgPor.txt
